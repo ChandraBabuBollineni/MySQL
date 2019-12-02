@@ -1,3 +1,4 @@
+
 CREATE DEFINER=`root`@`localhost` PROCEDURE `add_marks`(
 Input_Project_Name VARCHAR(50)
     ,Input_Student_Id int
