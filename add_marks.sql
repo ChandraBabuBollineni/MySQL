@@ -1,4 +1,4 @@
-CREATE DEFINER=`root`@`localhost` PROCEDURE `add_marks`(
+CREATE PROCEDURE `add_marks`(
 inputProjectName VARCHAR(50)
     ,inputStudentId int
      ,inputStartDate date

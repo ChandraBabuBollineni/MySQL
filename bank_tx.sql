@@ -1,4 +1,4 @@
-CREATE DEFINER=`root`@`localhost` PROCEDURE `bank_tx`(in inputFromUserId int,in  User1 int,in User2 int,in User3 int,in Amount int,out tranStatus varchar(50),out tranStatus_Rev varchar(50) )
+CREATE PROCEDURE `bank_tx`(in inputFromUserId int,in  User1 int,in User2 int,in User3 int,in Amount int,out tranStatus varchar(50),out tranStatus_Rev varchar(50) )
 BEGIN
 declare balance double;
 DECLARE `should_rollback` boolean DEFAULT FALSE;
